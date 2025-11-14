@@ -1,9 +1,5 @@
 {
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "builds": [
-    {
-      "src": "dist/**/*",
-      "use": "@vercel/static"
-    }
-  ]
+  "cleanUrls": false
 }
